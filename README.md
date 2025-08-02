@@ -11,29 +11,6 @@ This repository provides a modular framework for multi-agent orchestration, code
 
 ---
 
-## Architecture
-
-- **Core Directory Structure**
-  - `main.py`: Main orchestrator entry point
-    - `initialize_agents()`: Sets up the multi-agent ecosystem
-    - `route_intent()`: Primary routing logic for user queries
-    - `execute_flow()`: Executes intelligence flows
-  - `agents/`: Contains agent registry and initialization
-    - `orchestrator.py`: Master coordinator (TalentPulse360Agent)
-      - `run_async_impl()`: Main execution loop
-      - `detect_intent()`: Intent classification trigger
-      - `coordinate_agents()`: Multi-agent orchestration
-    - `scrapers/`: Specialized agents for data extraction
-    - `parallel_coordinator.py`: Manages concurrent scraping
-
-- **Documentation System**
-  - Triple-tiered Claude.md documentation:
-    - Master file structure mapping
-    - Submodule-specific guides
-    - Ecosystem-aware project overview
-
----
-
 ## Key Components
 
 - **ADK-Agent Architect**
