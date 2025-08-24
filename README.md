@@ -33,6 +33,12 @@ This repository provides a modular framework for multi-agent orchestration, code
   - Designs strategic implementation plans and risk mitigation strategies
   - Delivers actionable intelligence and recommendations for system improvements
 
+- **PR Review Guardian**
+  - Specialized pull request reviewer with advanced verification protocols to prevent false positives
+  - Implements a three-pass verification system (diff analysis, final state verification, context analysis)
+  - Safeguards main/prod branches from bugs, architectural debt, and security risks
+  - Enhanced capabilities for understanding refactoring patterns and code quality assessment
+
 ---
 
 ## Operational Protocols
